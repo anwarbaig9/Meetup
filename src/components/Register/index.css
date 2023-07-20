@@ -1,0 +1,67 @@
+.registerCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.registerImg {
+  width: 400px;
+  height: 400px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.registerHeading {
+  font-size: 46px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+}
+.text {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #7b8794;
+  margin-bottom: 8px;
+}
+.inputBox {
+  width: 240px;
+  height: 36px;
+  font-size: 14px;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border-color: #cbd5e1;
+  border-width: 1px;
+  border-style: solid;
+}
+.selectEl {
+  width: 240px;
+  height: 36px;
+  font-size: 14px;
+  border-color: #cbd5e1;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  outline: none;
+}
+.registerBtn {
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 6px;
+  background-color: #3b82f6;
+  border-style: none;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 6px;
+  width: 120px;
+  height: 36px;
+  cursor: pointer;
+  margin-left: -1px;
+}
+.errMsg {
+  font-size: 10px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #ff0b37;
+}
